@@ -32,7 +32,7 @@ This will search the Bands in Town Artist Events API for an artist and render th
 
 Name of the venue
 Venue location
-Date of the Event (use moment to format this as "MM/DD/YYYY")
+Date of the Event (formatted as "MM/DD/YYYY")
 
 If no event is provided then your program will default to "Metallica".
 
