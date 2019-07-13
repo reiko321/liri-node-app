@@ -26,7 +26,7 @@ Once you have that set you can run any of the following commands in your Node.js
 What Each Command Should Do:
 
 ----------------------------------------------------------------------------------------------------
-node liri.js concert-this "artist/band name here"
+# node liri.js concert-this "artist/band name here"
 
 This will search the Bands in Town Artist Events API for an artist and render the following information about each event to the terminal:
 
@@ -37,7 +37,7 @@ Date of the Event (formatted as "MM/DD/YYYY")
 If no event is provided then your program will default to "Metallica".
 
 ----------------------------------------------------------------------------------------------------
-node liri.js spotify-this-song "song name here"
+# node liri.js spotify-this-song "song name here"
 
 This will show the following information about the song in your terminal/bash window:
 
@@ -50,7 +50,7 @@ If no song is provided then your program will default to "My Way".
 
 
 ----------------------------------------------------------------------------------------------------
-node liri.js movie-this "movie name here"
+# node liri.js movie-this "movie name here"
 
 This will output the following information to your terminal/bash window:
 
@@ -67,7 +67,7 @@ If you do not type a movie in, the program will output data for the movie "When 
 
 
 ----------------------------------------------------------------------------------------------------
-node liri.js do-what-it-says
+# node liri.js do-what-it-says
 
 
 Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
