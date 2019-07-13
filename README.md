@@ -1,6 +1,7 @@
 # liri-node-app
 LIRI: A command line node app that takes in parameters and gives you back data.
 
+----------------------------------------------------------------------------------------------------
 
 Make sure you have your own API keys setup in a .env file for the following (making sure there are no spaces, brackets or Quotations:
 
@@ -12,13 +13,14 @@ SPOTIFY_SECRET=PASTE-YOUR-SECRET-HERE
 # OMDB API KEY
 OMDB_ID=YOUR-API-KEY-HERE
 
+----------------------------------------------------------------------------------------------------
 
 Once you have that set you can run any of the following commands in your Node.js console:
 
-node liri.js concert-this
-node liri.js spotify-this-song
-node liri.js movie-this
-node liri.js do-what-it-says
+* node liri.js concert-this
+* node liri.js spotify-this-song
+* node liri.js movie-this
+* node liri.js do-what-it-says
 
 
 What Each Command Should Do:
