@@ -26,7 +26,7 @@ Once you have that set you can run any of the following commands in your Node.js
 What Each Command Should Do:
 
 ----------------------------------------------------------------------------------------------------
-node liri.js concert-this <artist/band name here>
+node liri.js concert-this "artist/band name here"
 
 This will search the Bands in Town Artist Events API for an artist and render the following information about each event to the terminal:
 
@@ -37,7 +37,7 @@ Date of the Event (use moment to format this as "MM/DD/YYYY")
 If no event is provided then your program will default to "Metallica".
 
 ----------------------------------------------------------------------------------------------------
-node liri.js spotify-this-song '<song name here>'
+node liri.js spotify-this-song "song name here"
 
 This will show the following information about the song in your terminal/bash window:
 
@@ -50,7 +50,7 @@ If no song is provided then your program will default to "My Way".
 
 
 ----------------------------------------------------------------------------------------------------
-node liri.js movie-this '<movie name here>'
+node liri.js movie-this "movie name here"
 
 This will output the following information to your terminal/bash window:
 
